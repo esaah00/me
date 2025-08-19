@@ -4,27 +4,28 @@ const About = () => {
       "CSS",
       "HTML5",
       "JavaScript",
-      "PandaCss",
+      "PandaCSS",
       "React",
       "TypeScript",
       "TailwindCSS",
       "Fastify",
       "Node.js",
       "PostgreSQL",
+      "Docker",
     ],
   };
 
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="min-h-screen flex items-center justify-center relative bg-[url('safe.jpg')] bg-cover bg-center"
     >
       <div className="max-w-3xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
           About Me
         </h2>
 
-        <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+        <div className="rounded-xl p-8 border-white/10 border hover:cursor-pointer hover:-translate-y-1 transition-all">
           <p className="text-gray-300 mb-6">
             Passionate developer skilled in building scalable web applications
             and innovative solutions. Always eager to learn, adapt, and push
@@ -68,7 +69,7 @@ const About = () => {
               </li>
             </ul>
           </div>
-          <div className="p-6 rounded-xl border-white/10 border hover:cursor-pointer hover:-translate-y-1 transition-all">
+          <div className="p-6 rounded-xl border-white/20 border hover:cursor-pointer hover:-translate-y-1 transition-all">
             <h3 className="text-xl font-bold mb-4"> 💼 Experience </h3>
             <div className="space-y-4 text-gray-300">
               <div>
